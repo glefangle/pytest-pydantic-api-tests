@@ -1,5 +1,5 @@
 [project]
-name = "api-autotests"
+name = "pytest-pydantic-api-tests"
 version = "0.1.0"
 description = "REST API test framework: requests + pytest + pydantic + Allure"
 requires-python = ">=3.12"

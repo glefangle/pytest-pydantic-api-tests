@@ -1,4 +1,4 @@
-# API Autotests -- dummyjson.com
+# pytest-pydantic-api-tests
 
 REST API test framework: `requests` + `pytest` + `pydantic` (contract validation) + Allure Report.
 
@@ -8,7 +8,7 @@ users CRUD, authentication (login, Bearer-protected profile, negative cases).
 ## Architecture
 
 ```
-api-autotests/
+pytest-pydantic-api-tests/
 ├── src/
 │   ├── api/                 # Service layer -- endpoint wrappers returning parsed models
 │   │   ├── users_api.py     # GET/POST/PUT/DELETE /users*, list & pagination
@@ -86,4 +86,8 @@ All settings come from environment variables or `.env` (see `.env.example`):
 ## CI / Allure
 
 Every push/PR runs: **lint -> typecheck -> test**. The Allure report (with trend history)
-is published to GitHub Pages: `https://<owner>.github.io/<repo>/`.
+is published to GitHub Pages: `https://glefangle.github.io/pytest-pydantic-api-tests/`.
+
+## License
+
+[MIT](LICENSE)
