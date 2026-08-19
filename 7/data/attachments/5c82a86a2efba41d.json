@@ -1,0 +1,5 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/auth/login",
+  "request_body": "{\"username\": \"emilys\", \"password\": \"emilyspass\"}"
+}
