@@ -1,4 +1,5 @@
 """Centralized test settings loaded from environment / .env file."""
+
 from functools import lru_cache
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
