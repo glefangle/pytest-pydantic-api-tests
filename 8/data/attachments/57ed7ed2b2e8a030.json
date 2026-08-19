@@ -1,0 +1,4 @@
+{
+  "status_code": 404,
+  "body": "{\n  \"message\": \"User with id '9999' not found\"\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "method": "PUT",
+  "url": "https://dummyjson.com/users/1",
+  "request_body": "{\"firstName\": \"William\", \"lastName\": \"Smith\"}"
+}

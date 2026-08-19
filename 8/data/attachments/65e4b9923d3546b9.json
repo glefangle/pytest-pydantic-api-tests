@@ -1,0 +1,5 @@
+{
+  "method": "POST",
+  "url": "https://dummyjson.com/users/add",
+  "request_body": "{\"firstName\": \"Erin\", \"lastName\": \"Mason\"}"
+}

@@ -1,0 +1,4 @@
+{
+  "status_code": 400,
+  "body": "{\n  \"message\": \"Username and password required\"\n}"
+}

@@ -1,0 +1,5 @@
+{
+  "method": "GET",
+  "url": "https://dummyjson.com/users",
+  "request_body": null
+}
